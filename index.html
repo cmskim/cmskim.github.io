@@ -1,6 +1,70 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>In Progress</h1>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Christian Kim</title>
+    <meta name="author" content="Christian Kim">
+    <meta name="description" content="Christian's personal website; get to know me.">
+    <meta name="keywords" content="christian,kim,portfolio,website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" thref="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">
+        <h1>
+          <span class="title"><a href="index.html" id="name"></a><span class="blinking-cursor">&#9122;</span></span>
+        </h1>
+      </div>
+
+      <div id="navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="./assets/Christian_Kim_Resume.pdf">Resume</a><li>
+        </ul>
+      </div>
+
+      <div id="home" class="content">
+        <p>Hey! My name is Christian.</p>
+
+        <p>Currently, I'm studying Computer Science at Texas A&M University, College Station. Most recently, in 2020, I've worked at <a href="https://usa.visa.com/" id="visa">Visa</a>, developing contactless payment solutions. Previously, I was as a Teaching Assistant at the <a href="https://www.tamu.edu/" id="tamu">Texas A&M Engineering Department</a>, introducing Python to freshman engineering students.</p>
+          
+        <p>At school, I've done research under Dr. Satish Bukkapatnam for the annual <a href="https://engineering.tamu.edu/academics/undergraduate/aggie-challenge/index.html" id="ags">AggiE-Challenge</a>, creating a product that indicates early stages of Varicose Veins. I'm also the President of <a href="http://best-tamu.com/" id="best">BEST</a>, an academic Men's Organization focusing on the development of professional skills.</p>
+
+        <p>Outside of school and work, I like playing <g style="color:#964b00"><span class="x">guitar</span><span class="y">🎸guitar🎸</g>, beating my friends in <g style="color:#929000"><span class="x">Spikeball</span><span class="y">🏐Spikeball🏐(the volleyball will do)</g>, and watching <g style="color:#be6103"><span class="x">Formula One</span><span class="y">🏎Formula One🏎</g> races. I also have a passion for tutoring: be it for coding, math, or guitar.</p>
+
+        <p>If you're interested in working with me or just want to say hi, feel free to contact me at <a href="mailto:christian.kim99@gmail.com" id="email">christian.kim99@gmail.com</a>.</p>
+        
+      </div>
+      
+    </div>
+    <div id='contact-footer'>
+      <a href='https://twitter.com/christian_kim99'><i class="fa fa-twitter" style="font-size:24px"></i></a>
+
+      <a href='https://www.linkedin.com/in/cmskim/'><i class="fa fa-linkedin" style="font-size:24px"></i></a>
+
+      <a href='mailto:christian.kim99@gmail.com'><i class="fa fa-envelope" style="font-size:24px"></i></a>
+
+      <a href='https://github.com/cmskim'><i class="fa fa-github" style="font-size:24px"></i></a>
+    </div>
+
+    <script>
+      var i = 0;
+      var txt = 'Christian Kim';
+      var speed = 150;
+
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("name").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+      typeWriter();
+    </script>
+  </body>
 </html>

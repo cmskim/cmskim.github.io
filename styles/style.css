@@ -1,0 +1,197 @@
+html {
+  padding: 0;
+  margin: 0;
+  color: #555;
+  font-family: "SF Mono Regular", "Source Code Pro", "Inconsolata", "Monaco", monospace;
+  font-size: 13px;
+}
+
+a:hover,
+a:visited,
+a:active,
+a:link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 3em;
+  text-align: center;
+  width: auto;
+ 
+}
+i {
+  padding-left: 8px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 1em;
+  text-align: center;
+  width: auto;
+  display: inline;
+  color: #99f;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.blinking-cursor {
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #99f;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #99f;
+  }
+}
+
+@-webkit-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #99f;
+  }
+}
+
+@-ms-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #99f;
+  }
+}
+
+@-o-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #99f;
+  }
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  font-size: 1.2em;
+  padding: 2em;
+  line-height: 1.8em;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#navigation {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#navigation ul {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#navigation ul li {
+  display: inline-block;
+  padding: .4em;
+}
+
+#navigation ul li:hover {
+  color: #99f;
+}
+#contact-footer {
+  text-align: center;
+}
+#contact-footer a {
+  transition: 0.25s;
+}
+#contact-footer a:hover {
+  opacity: 0.6;
+}
+
+#home a:link,
+#home a:hover,
+#home a:active,
+#home a:visited {
+    color: white;
+    transition: 0.25s;
+    padding: .2em;
+}
+
+#home a:hover {
+    opacity: 0.6;
+}
+
+#home g span.y {
+  display: none;
+}
+#home g:hover span.x {
+  display: none;
+}
+#home g:hover span.y{
+  display:inline;
+}
+
+#visa {
+  background-color: #0061b2 !important;
+  color: #fff !important;
+}
+
+#email {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+#linkedin {
+  background-color: #0077b5 !important;
+  color: #fff !important;
+}
+
+#tamu {
+  background-color: #500000;
+  color: #fff !important;
+}
+
+#guit {
+  background-color: #964b00;
+  color: #fff !important;
+}
+
+#best {
+  background-color: #00557f;
+  color: #fff !important;
+}
+#ags {
+  background-color: #e03a3e;
+  color: #fff !important;
+}
